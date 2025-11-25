@@ -124,6 +124,7 @@ def editar(id):
 
     return render_template("editar.html", matricula=aluno)
 
+
 if __name__ == "__main__":
     print("\n🚀 Iniciando servidor Flask...\n")
-    app.run(host="0.0.0.0")
+    app.run()
